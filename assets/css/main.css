@@ -180,3 +180,21 @@ i {
 	border-width: 15px;
 	margin-left: -15px;
 }
+
+.scrollto, .scrollto:hover {
+	margin:30px;
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	width:200px;
+	margin:0 auto;
+}
+.scrollto--arrow {
+	padding:10px;
+}
+.scrollto--arrow img {
+	animation: arrowbounce 1s alternate infinite;
+	-moz-animation: arrowbounce 1s alternate infinite; /* Firefox */
+	-webkit-animation: arrowbounce 1s alternate infinite; /* Safari and Chrome */
+	-o-animation: arrowbounce 1s alternate infinite; /* Opera */
+}
